@@ -1,5 +1,7 @@
 # Chemical intention 
 
+![ChemicalIntention](doc/Chemical_intention.png "Chemical Intention")
+
 This generative music installation is made with Csound. 
 It can take advantage of any number of speakers, and run forever.
 It is available to download [here](github.com/johannphilippe/chemical_intention).
@@ -26,7 +28,7 @@ This configuration will enable or disable features, such as plugin opcodes, bina
 
 Plugin opcodes can be turned out by commenting the line `#define ENABLE_PLUGINS ##`. It will allow the installation to run with Csound only (no other dependency). 
 If you want to enable the plugins, you will need to : 
-- Download and install [HYPERCURVE](github.com/johannphilippe/hypercurve)
+- Download and install [HYPERCURVE](https://github.com/johannphilippe/hypercurve)
 - Download and install [lua_csound](https://framagit.org/johannphilippe/lua_csound)
 
 ### Binaural 
@@ -51,7 +53,7 @@ Thus, it must be considered as a demo version.
 
 ## Play Chemical Intention locally
 
-- Download the [project](github.com/johannphilippe/chemical_intention) 
+- Download the [project](https://github.com/johannphilippe/chemical_intention) 
 - Download and install Csound v6.18 or above - [link](https://csound.com/download.html) following the official instructions.
 - Edit `config.orc` (see Configure section above)
 - Open a terminal and navigate to the downloaded project
